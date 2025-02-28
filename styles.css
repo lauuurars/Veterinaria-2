@@ -84,4 +84,54 @@
 
 }
 
+.quality-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    button{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        max-width: 150px;
+        padding: 10px 30px;
+        background-color: #fb8322;
+        border-radius: 25px;
+        border: none;
+        margin-right: 100px;
+    }
+
+    button:hover{
+        background-color: #018ac0;
+    }
+    
+}
+
+
+.quality-element{
+    max-width: 70%;
+
+    h1{
+        padding-bottom: 20px;
+    }
+}
+
+.imagenes-container{
+    max-width: 100%;
+}
+
+.imagenes-element{
+    display: flex;
+    height: 280px;
+    width: 280px;
+    background-color: #fb8322;
+
+}
+
 
