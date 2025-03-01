@@ -116,6 +116,7 @@
 
 .quality-element{
     max-width: 70%;
+    margin: 20px;
 
     h1{
         padding-bottom: 20px;
@@ -128,10 +129,9 @@
 
 .imagenes-element{
     display: flex;
-    height: 280px;
-    width: 280px;
+    height: 279px;
+    width: 279px;
     background-color: #fb8322;
-
 }
 
 
