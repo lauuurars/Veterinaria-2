@@ -81,6 +81,10 @@
         border-radius: 25px;
         border: none;
     }
+    
+    button:hover{
+        background-color: #018ac0;
+    }
 
     img{
         max-width: 70%;
@@ -129,14 +133,19 @@
 }
 
 .imagenes-container{
-    max-width: 100%;
-}
-
-.imagenes-element{
     display: flex;
-    height: 279px;
-    width: 279px;
-    background-color: #fb8322;
+    flex-direction: row;
 }
 
+.img img{
+    width: 100%;
+    display: block;
+    margin-bottom: -100px;
+    border-bottom: solid 10px #d4195a;
+}
+
+.text{
+    color: white;
+    text-align: center;
+}
 
