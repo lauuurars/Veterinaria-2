@@ -59,12 +59,17 @@
     justify-content: flex-end;
     padding-top: 100px;
     height: 450px;
-    background-color: red;
+    background-image: url(imagen\ fondo.jpg);
     gap: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagen\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     h1, p{
         color: white;
     }
+
 
     button{
         color: white;
@@ -72,7 +77,7 @@
         font-weight: 600;
         max-width: 150px;
         padding: 10px 30px;
-        background-color: #018ac0;
+        background-color: #d5185a;
         border-radius: 25px;
         border: none;
     }
