@@ -87,7 +87,7 @@
     }
     
     button:hover{
-        background-color: #018ac0;
+        background-color: #752466;
     }
 
     img{
@@ -121,7 +121,7 @@
     }
 
     button:hover{
-        background-color: #018ac0;
+        background-color: #d5185a;
     }
     
 }
@@ -185,7 +185,7 @@
         }
         padding-top: 10px;
         background-color: rgba(0, 0, 0, 0.4);
-        border-bottom: 4px solid #752466;
+        border-bottom: 4px solid #d41756;
     }
 }
 
